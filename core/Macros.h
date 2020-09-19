@@ -6,6 +6,7 @@
 
 #include "glog/logging.h"
 #include <boost/algorithm/string/split.hpp>
+#include <gflags/gflags.h>
 
 DEFINE_string(servers, "127.0.0.1:10010",
               "semicolon-separated list of servers");
